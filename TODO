@@ -1,0 +1,9 @@
++ Mac OS X support
+- remove -g CFLAGS entry for standard compilation
+- documentation, documentation, documentation
+- Color support (is it possible?)
++ add support for all OSes slurm supports 
++ create website/screenshot
++ delay option (like slurm) to lower traffic/refresh rate
+
+- other wishes? -> hscholz@raisdorf.net

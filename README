@@ -1,0 +1,42 @@
+wormulon 0.1.4
+Hendrik Scholz - hscholz@raisdorf.net - http://www.raisdorf.net/
+
+wormulon is based on slurm (http://www.raisdorf.net/slurm/) and adds
+a traffic statistic to your screen hardstatus line.
+wormulon has its own website on http://www.raisdorf.net/wormulon/
+
+_______________________________________________________________________________
+I N S T A L L
+
+Just ./configure && make
+make install isn't available as of now.
+
+Since wormulon was born in a car on the way back from Linuxtag to Kiel
+I couldn't test it on a large variety of systems and only FreeBSD and Linux
+are (somewhat) supported. Since slurm supports *BSD, Linux, Solaris and HPUX
+support will be added soon.
+UPDATE: Now *BSD, Linux and Solaris are supported. HPUX has to be tested.
+
+_______________________________________________________________________________
+C O N F I G U R E
+
+screen has to be configured to use wormulon, so add atleast this to your
+~/.screenrc:
+
+backtick 1 0 0 /path/to/wormulon -i fxp0
+hardstatus alwayslastline "%{bw}%1`%= "
+
+The webite has some more detailed information available.
+
+_______________________________________________________________________________
+C O M M E N T S
+
+Comments and contributions are very welcome. Please ask first before
+implementing any features and sending diffs since the interal structure may
+(and will) change rendering your patches useless.
+
+I'll put up a page showing the list of TODO-features in the meanwhile have a
+look at the TODO file.
+
+_______________________________________________________________________________
+$Id: README,v 1.4 2003/09/12 21:19:15 hscholz Exp $

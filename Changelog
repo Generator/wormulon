@@ -1,0 +1,41 @@
+Fri Sep 12 23:18:28 CEST 2003
+
+    - 0.1.4 release
+
+Wed Sep 10 21:54:10 CEST 2003
+
+    - add Mac OS X support
+
+Thu Aug 14 17:31:14 CEST 2003
+
+    - 0.1.3 release
+    - disable the -o custom mode for now since it's broken
+    - add profiling Makefile option 'make prof'
+
+Thu Aug 14 12:57:23 CEST 2003
+
+    - fix compile errors on Linux
+
+Thu Aug  7 03:47:31 CEST 2003
+
+	- add -o custom support (still misssing documentation :))
+	  now ./wormulon -i wi0 -o custom 'foo %%% bar %%% bla' should
+	  produce output like 'foo 123.0 bar 1234.0 bla'.
+	  As of now this does not contain any units like kB/s.
+
+Fri Jul 25 18:56:01 CEST 2003
+
+	- initial support for variable output
+	  (might be helpful for MRTG processing)
+
+Wed Jul 16 18:53:30 CEST 2003
+
+	- add support for NetBSD, OpenBSD, Solaris and HPUX (needs testing)
+
+Mon Jul 14 11:01:47 CEST 2003
+
+	- allow usage on Linux
+
+Mon Jul 14 10:04:59 CEST 2003
+
+	- initial import
